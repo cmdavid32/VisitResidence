@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="">
+  <title>Mensajes</title>
+  <script src="js/init.js"></script>
+  <script>load_view('vistas/includes.html')</script>
+  <script src="js/mensajes.js"></script>
+  <style>
+    .btn{
+      margin:0 !important;
+      padding: 1rem 2rem;
+    }
+  </style>
+</head>
+<body>
+  <script>load_view('vistas/header.html')</script>
+  <div class="container animated fadeIn">
+    <div class="row" style="margin-top: 110px;">
+      <div class="col-6 text-center">
+        <button class="btn btn-danger btn-change" data-trigger="tabla-recibidos">Recibidos</button>
+      </div>
+      <div class="col-6 text-center">
+        <button class="btn btn-danger btn-change" data-trigger="tabla-enviados">Enviados</button>
+      </div>
+    </div>
+  </div>
+  <section class="contenedor-tabla animated fadeIn" id="">
+    <div class="container">
+     <table class="table table-bordered tabla-visit-residence" id="tabla-recibidos">
+
+     </table>
+     <table class="table table-bordered tabla-visit-residence d-none" id="tabla-enviados">
+
+     </table>
+   </div>
+ </section>
+ <input name="animation" type="hidden">
+</body>
+</html>
