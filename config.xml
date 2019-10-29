@@ -27,7 +27,7 @@
     <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
   </feature>
   <platform name="android">
-    <icon qualifier="ldpi" src="res/icons/android/Icon-48.png" />
+    <icon qualifier="ldpi" src="res/icons/android/Icon-96.png" />
     <icon qualifier="mdpi" src="res/icons/android/Icon-48.png" />
     <icon qualifier="hdpi" src="res/icons/android/Icon-72.png" />
     <icon qualifier="xhdpi" src="res/icons/android/Icon-96.png" />
