@@ -35,4 +35,5 @@
     <icon qualifier="xxxhdpi" src="res/icons/android/Icon-192.png" />
   </platform>
   <engine name="android" spec="^7.1.4" />
+  <preference name="android-minSdkVersion" value="28" />
 </widget>
