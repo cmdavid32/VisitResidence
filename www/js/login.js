@@ -4,7 +4,6 @@ if (userget()) {
 
 
 $('#login-form').submit(function() {
-  alert(ws_url);
   $.ajax({
     url: ws_url+'WS/login',
     type: 'POST',
