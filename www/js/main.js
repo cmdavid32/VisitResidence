@@ -1,5 +1,5 @@
 var base_url = 'http://localhost/visit_app/';
-var ws_url = 'http://visitresidence.com/sistema/';
+var ws_url = 'https://visitresidence.com/sistema/';
 
 var usuario = userget();
 
